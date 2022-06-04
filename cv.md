@@ -32,7 +32,7 @@ I'm 18 years old, student. My goal is to find a job that will really bring me pl
  </section>
   ```
   ---
-    ### Education
+  ### Education
   ###### Belarusian State University of Informatics and Radioelectronics (GRADUATION DATE - 2024)
   ##### Courses:
   + WayUp
