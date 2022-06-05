@@ -7,6 +7,7 @@
 ---
 ### About me
 I'm 18 years old, student. My goal is to find a job that will really bring me pleasure and desire to learn new things in this sphere.
+
  ###### Strengths:
  - hardworking
  - stress-resistant
