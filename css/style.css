@@ -1,0 +1,244 @@
+/*обнуление стилей */
+
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,*::before,*:after{
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+nav,footer,header,aside{display: block;}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: -1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family: inherit;}
+
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner{padding: 0;border: 0;}
+a,a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+
+h1,h1,h3,h4,h5,h6{font-size: inherit;font-weight: 400;}
+
+body{
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 400;
+    max-width: 1600px;
+    color: #000;
+    background-color: #C0C0C0;
+}
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+/*Header styles start*/
+.header{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 2px solid #9a9a9a;
+    padding: 20px;
+    background-color: #f0f0f0;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.photo{
+    border-radius: 50%;
+    max-width: 200px;
+    height: 200px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.name{
+    font-size: 60px;
+    font-weight: 700;
+    margin-right: 200px;
+    max-width: 400px;
+    line-height: 60px;
+}
+
+span{
+    font-size: 70px;
+}
+
+.contact{
+    font-size: 18px;
+}
+
+.contact a{
+    color: #000;
+}
+
+.contact a:hover{
+    color:dimgrey;
+}
+/*Header styles end*/
+
+/*First section styles start*/
+.first{
+    margin-bottom: 20px;
+}
+
+.offer{
+    padding: 40px 0 40px 30px;
+    background-color: #9a9a9a;
+   opacity: 0.7;
+   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+h2{
+    margin-bottom: 10px;
+}
+
+.about_me{
+    font-size: 16px;
+}
+/*First section styles end*/
+
+/*Second section styles start*/
+.second{
+    margin-bottom: 20px;
+}
+.me{
+    display: flex;
+    justify-content: space-around;
+}
+
+.me-info{
+    font-size: 16px;
+    padding: 0 150px 40px 150px;
+}
+
+.li{
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    opacity: 0.7;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
+}
+
+.me{
+    text-align: center;
+}
+
+.subtitle{
+    margin-top: 20px;
+}
+
+.me-info li{
+    font-size: 20px;
+    text-align: left;
+}
+
+.me-info li::before{
+    content: "->";
+    margin-right: 6px;
+    
+}
+/*Second section styles end*/
+
+/*Third section styles start*/
+.third{
+    margin-bottom: 20px;
+}
+
+.scroll-code{
+    text-align: left;
+    height: 200px;
+    overflow-y: scroll;
+    margin-right: 100px;
+    overflow-x: scroll;
+    width: 500px;
+    position: relative;
+    right: -300px;
+}
+
+.code-example{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/*Third section styles end*/
+
+/*Fourth section styles start*/
+.fourth{
+    margin-bottom: 20px;
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    font-size: 16px;
+}
+
+.list li{
+    max-width: 200px;
+}
+
+.lang li{
+    list-style-type: disc;
+}
+
+.courses li{
+    list-style-type:disc;
+}
+
+/*Fourth section styles end*/
+
+/*Footer section styles start*/
+.github-name{
+    font-size: 18px;
+    color: #000;
+    display: inline;
+}
+
+.link{
+    margin-bottom: 20px;
+}
+
+.link a{
+    font-size: 18px;
+    color: #000; 
+    display: inline-block;  
+}
+
+.link a:hover{
+    color:dimgrey;
+}
+
+.logo-link{
+    width: 100px;
+    margin-bottom: 10px;
+}
+
+.date{
+    font-size: 18px;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+}
+
+/*Footer section styles end*/
