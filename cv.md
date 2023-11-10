@@ -60,7 +60,6 @@ console.log(res2);
 
 * made up the basic layout website in HTML5 and CSS3
 * created a full-fledged site on the CSS GRID system
-* connected jquery library to the project and used it
 
 *****
 ## EDUCATION
